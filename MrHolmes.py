@@ -46,3 +46,7 @@ if __name__ == "__main__":
     except ModuleNotFoundError as Error:
         print(Font.Color.RED + "\n\n[!]" + Font.Color.WHITE + Language.Translation.Translate_Language(filename, "Default", "Internal", "None").format(str(Error)))
         exit()
+# sudo chmod +x install.sh
+
+
+# cd Mr.Holmes
